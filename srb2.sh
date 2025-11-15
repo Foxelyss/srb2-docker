@@ -1,13 +1,13 @@
 #!/bin/bash
 
-cd /SRB2/bin || exit
+cd /SRB2/ || exit
 
 ADDONS=$(ls /addons)
 
 if [ -z "$ADDONS" ]; then
-    /SRB2/bin/lsdl2srb2 -dedicated -config adedserv.cfg -home /data $*
+    /SRB2/lsdl2srb2 -dedicated -config adedserv.cfg -home /data $*
     exit
 fi
 
 # Intentional word splitting
-/SRB2/bin/lsdl2srb2 -dedicated -config adedserv.cfg -home /data $* -file $ADDONS
+/SRB2/lsdl2srb2 -dedicated -config adedserv.cfg -home /data $* -file $ADDONS

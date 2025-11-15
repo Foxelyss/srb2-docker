@@ -1,4 +1,3 @@
-version: '3'
 services:
   srb2:
     build: .
@@ -6,6 +5,7 @@ services:
     ports:
       - "5029:5029/udp"
     volumes:
+      #- "./logs:/SRB2/logs"
       - "./config:/config"
       - "./addons:/addons"    # OPTIONAL - For addons and mods
       - "./adedserv.cfg:/data/.srb2/adedserv.cfg"   # OPTIONAL - For configuring server variables. REMINDER - BE SURE TO CREATE THE .CFG FILE BEFORE RUNNING THE CONTAINER
