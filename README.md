@@ -2,7 +2,7 @@
 
 Docker-compose for running a Sonic Robo Blast 2 dedicated server. Works with latest version of the game, aka 2.2.15
 
-If you wanna help with server configuration, contact me via emailm send me your configuration to tests with mods!
+If you wanna help with server configuration, contact me via [email](mailto:foxelyss@gmail.com) or discord, send me your configuration to tests with mods!
 
 ## Usage
 
