@@ -8,7 +8,5 @@ unzip srb2-full.zip -d base_game -f
 rm base_game/*.dll
 rm base_game/*.exe
 
-cd ..
-
 cd SRB2
 git submodule update --init --remote --recursive
